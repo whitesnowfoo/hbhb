@@ -29,10 +29,10 @@
 
 #### 【String 字符串的+操作】
 
-  String 字符串的+操作，实际上是new了一个StringBuild对象，然后append上去的。
+String 字符串的+操作，实际上是new了一个StringBuild对象，然后append上去的。
 
 
 #### StringBuffer和StringBuilder的区别
 
-  StringBuffer和StringBuilder的底层都是字符数组，他们两都继承了AbstractStringBuilder抽象类，
+ StringBuffer和StringBuilder的底层都是字符数组，他们两都继承了AbstractStringBuilder抽象类，
   从AbstractStringBuilder抽象类中我们可以看到
